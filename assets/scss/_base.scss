@@ -1,8 +1,15 @@
-:root {
-    --color-primary: #FFAB08;
-    --color-secondary: #FF7020;
-    --color-font: #000000;
-}
+@import '../fonts/Nunito/index.scss';
+
+
+$color-primary: #FFAB08;
+$color-secondary: #FF7020;
+$color-font: #000000;
+$color-white: #FFFFFF;
+
+$color-grey-light-1: #F9F9F9;
+$color-grey-light-2: #F2F2F3;
+
+$color-body: #A99176;
 
 
 * {
@@ -14,4 +21,35 @@
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+html {
+    height: 100%
+}
+  
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-weight: 400;
+    background-color: $color-body;
+    box-sizing: border-box;
+    color: $color-font;
+    font-family: $Nunito-Regular;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: $color-white;
+    font-family: $Nunito-ExtraBold;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 75px;
+}
+
+.no-padding {
+    padding: 0;
 }

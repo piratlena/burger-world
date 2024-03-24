@@ -1,0 +1,21 @@
+.hero{
+    width: 100%;
+    background: $color-primary;
+    padding-bottom: 67px;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 21px;
+    }
+
+    &__subtitle {
+        font-size: 50px;
+        font-weight: 800;
+        color: $color-white;
+        font-family: $Nunito-ExtraBold;
+        color: $color-secondary;
+    }
+}

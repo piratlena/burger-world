@@ -13,7 +13,6 @@ export default defineNuxtConfig({
         link: [
             {
                 rel: 'icon',
-                type: 'image/svg',
                 href: '/favicon.svg'
             }
         ],
@@ -32,4 +31,7 @@ export default defineNuxtConfig({
         ]
     }
 },
+css: [
+    "~/assets/scss/index.scss"
+]
 })

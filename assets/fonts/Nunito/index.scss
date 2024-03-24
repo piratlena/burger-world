@@ -1,0 +1,36 @@
+$Nunito-Regular: 'Nunito-Regular';
+$Nunito-ExtraLight: 'Nunito-ExtraLight';
+$Nunito-ExtraBold: 'Nunito-ExtraBold';
+$Nunito-SemiBold: 'Nunito-SemiBold';
+
+@font-face{
+    font-family: $Nunito-Regular;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src : url("~/assets/fonts/Nunito/Nunito-Regular.ttf")
+}
+
+@font-face{
+    font-family: $Nunito-ExtraLight;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src : url("~/assets/fonts/Nunito/Nunito-ExtraLight.ttf")
+}
+ 
+@font-face{
+    font-family: $Nunito-ExtraBold;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src : url("~/assets/fonts/Nunito/Nunito-ExtraBold.ttf")
+}
+
+@font-face{
+    font-family: $Nunito-SemiBold;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src : url("~/assets/fonts/Nunito/Nunito-SemiBold.ttf")
+}
