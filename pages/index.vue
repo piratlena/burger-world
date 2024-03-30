@@ -2,6 +2,9 @@
     <div>
      <Header/>
      <Hero/>
+     <div class="container">
+        <Menu/>
+     </div>
     </div>
 </template>
 
