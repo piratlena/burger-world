@@ -11,6 +11,18 @@
         gap: 21px;
     }
 
+    &__image {
+        display: block;
+        width: 326px;
+        height: 326px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
     &__subtitle {
         font-size: 50px;
         font-weight: 800;

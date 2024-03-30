@@ -1,0 +1,15 @@
+.main-button {
+    padding: 12px auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 12px;
+   
+    &__orange {
+        background: $color-secondary;
+    }
+
+    &__light {
+        background: $color-grey-light-2;
+    }
+}

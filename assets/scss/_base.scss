@@ -33,7 +33,7 @@ body {
     margin: 0;
     height: 100%;
     font-weight: 400;
-    background-color: $color-body;
+    background-color: $color-grey-light-1;
     box-sizing: border-box;
     color: $color-font;
     font-family: $Nunito-Regular;
@@ -44,6 +44,13 @@ h1 {
     font-weight: 800;
     color: $color-white;
     font-family: $Nunito-ExtraBold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: $Nunito-SemiBold;
 }
 
 .container {

@@ -1,7 +1,10 @@
 <template>
     <div class="hero">
         <div class="hero__content">
-                <NuxtImg src="/burger.png" alt="бургер"/>
+                <NuxtImg 
+                class="hero__image"
+                src="/burger.png"
+                 alt="бургер"/>
             <div class="hero__text">
                 <h1 class="hero__title">Только самые</h1>
                 <span class="hero__subtitle">сочные бургеры</span>
