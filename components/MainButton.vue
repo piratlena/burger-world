@@ -3,8 +3,8 @@
     class="main-button"
     :disabled="disabled"
     :class="{
-        '__orange': classes.includes('orange'),
-        '__light': classes.includes('light')
+        'main-button__orange': classes.includes('main-button__orange'),
+        'main-button__light': classes.includes('main-button__light')
     }"
     >
         <slot/>
