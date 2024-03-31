@@ -13,7 +13,7 @@
         
         <div class="menu__content">
             <div class="menu__left">
-
+               <Cart/>
             </div>
             <div class="menu__right">
                 <h2>Бургеры</h2>
