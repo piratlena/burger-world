@@ -21,9 +21,8 @@
     }
     
     &__title {
-        font-size: 16px;
-        font-family: $Nunito-Regular;
-        font-weight: 400;
+        @include regular-text;
+        font-weight: 600;
         line-height: 130%;
     }
 

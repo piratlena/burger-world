@@ -48,7 +48,7 @@ data() {
             alt: 'Бургер Мясная Бомба', 
             title: 'Мясная бомба',
             price: '689',
-            ammount: '520'
+            amount: '520'
         },
         {
             type: 'burger', 
@@ -56,7 +56,7 @@ data() {
             alt: 'Бургер Супер сырный', 
             title: 'Супер сырный',
             price: '550',
-            ammount: '512'
+            amount: '512'
         },
         {
             type: 'burger', 
@@ -64,7 +64,7 @@ data() {
             alt: 'Бургер Сытный', 
             title: 'Сытный',
             price: '639',
-            ammount: '580'
+            amount: '580'
         },
         {
             type: 'burger', 
@@ -72,7 +72,7 @@ data() {
             alt: 'Бургер Тяжелый удар', 
             title: 'Тяжелый удар',
             price: '480',
-            ammount: '470'
+            amount: '470'
         },
         {
             type: 'burger', 
@@ -80,7 +80,7 @@ data() {
             alt: 'Бургер Вечная классика', 
             title: 'Вечная классика',
             price: '450',
-            ammount: '450'
+            amount: '450'
         },
         {
             type: 'burger', 
@@ -88,7 +88,7 @@ data() {
             alt: 'Бургер Итальянский', 
             title: 'Итальянский',
             price: '560',
-            ammount: '510'
+            amount: '510'
         },
 ]
     }

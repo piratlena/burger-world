@@ -12,19 +12,81 @@
         justify-content: space-between;
         align-items: center;
         padding: 12px 0 12px 0;
+
+        &-amount {
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2px 16px 2px 16px;
+            border-radius: 6px;
+            background: $color-grey-light-2;
+
+            span {
+                @include small-title-bold;
+            }
+        }
     }
 
-    &__top-ammount {
-        height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 2px 16px 2px 16px;
-        border-radius: 6px;
-        background: $color-grey-light-2;
+    &__item {
+        width: 100%;
+        display: block;
 
-        span {
-            font-size: 12px;
+        &-img {
+            height: 52px;
+        }
+
+        &-inner {
+            padding: 15px 0 14px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-left {
+            display: flex;
+            gap: 6px;
+        }
+
+        &-info {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            gap: 6px;
+            justify-content: space-between;
+        }
+
+        &-top {
+            display: flex;
+            flex-direction: column;
+            gap: 1px
+        }
+
+        &-title {
+            @include small-title-bold;
+        }
+
+        &-weight {
+            @include small-title-text;
+            color: $color-grey-light-3;
+        }
+
+        &-price {
+            @include small-title-bold;
+        }
+
+        &-btn {
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px 9px;
+            border-radius: 12px;
+            background: $color-grey-light-2;
+            @include regular-text;
+            font-weight: 600;
         }
     }
 
@@ -38,6 +100,11 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 24px;
+
+            span {
+                @include regular-text;
+                font-weight: 600;
+            }
         }
 
         &-delivery {
@@ -46,7 +113,7 @@
             align-items: center;
 
             span {
-                font-size: 12px;
+                @include small-title-bold;
             }
         }
     }

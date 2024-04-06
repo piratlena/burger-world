@@ -77,3 +77,23 @@ h3 {
    height: 1px;
    width: 100%; 
 }
+
+//Mixins
+@mixin small-title-text{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+@mixin small-title-bold{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+@mixin regular-text{
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 400;
+}
+

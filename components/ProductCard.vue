@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="card__bottom">
-            <span class="card__text">{{ product.ammount }}г</span>
+            <span class="card__text">{{ product.amount }}г</span>
             <MainButton :classes="['main-button__light']">Добавить</MainButton>
         </div>
        
