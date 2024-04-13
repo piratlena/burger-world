@@ -1,22 +1,29 @@
 <template>
-    <div class="product-list">
-        <ProductCard
+  <div class="product-list">
+    <ProductCard
         v-for="product in products"
         :product="product"
-        />
-    </div>
+        @set-cart-product="$emit('setCartProduct', product.id)"
+    />
+  </div>
 </template>
 
 <script>
 
 export default {
-name: 'ProductList',
-props: {
+  name: 'ProductList',
+  props: {
     products: {
-        type: Array,
-        required: true
+      type: Array,
+      required: true
+    },
+  },
+  data() {
+    return {
+      cartProductList: [],
+      cartItem: null,
     }
-}
+  },
 }
 
 </script>
