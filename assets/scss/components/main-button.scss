@@ -1,0 +1,43 @@
+.main-button {
+    padding: 12px 0 12px 0;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: $Nunito-Regular;
+    font-size: 16px;
+    line-height: 100%;
+   
+    &__orange {
+        background: $color-secondary;
+        color: $color-white;
+
+        &:hover {
+            background: $color-primary;
+            color: $color-white;
+        }
+
+        &:active {
+            background: $color-orange;
+            color: $color-white;
+        }
+    }
+
+    &__light {
+        background: $color-grey-light-2;
+
+        &:hover {
+            background: $color-primary;
+            color: $color-white;
+        }
+
+        &:active {
+            background: $color-orange;
+            color: $color-white;
+        }
+    }
+}

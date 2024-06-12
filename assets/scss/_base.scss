@@ -1,0 +1,99 @@
+@import '../fonts/Nunito/index.scss';
+
+
+$color-primary: #FFAB08;
+$color-secondary: #FF7020;
+$color-orange: #F86310;
+$color-big-text: #FF5C00;
+$color-font: #000000;
+$color-white: #FFFFFF;
+
+$color-grey-light-1: #F9F9F9;
+$color-grey-light-2: #F2F2F3;
+$color-grey-light-3: #B1B1B1;
+
+
+$color-body: #A99176;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%
+}
+  
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-weight: 400;
+    background-color: $color-grey-light-1;
+    box-sizing: border-box;
+    color: $color-font;
+    font-family: $Nunito-Regular;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: $color-white;
+    font-family: $Nunito-ExtraBold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: $Nunito-SemiBold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: $Nunito-SemiBold;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 75px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.divider {
+   background: $color-grey-light-3;
+   height: 1px;
+   width: 100%; 
+}
+
+//Mixins
+@mixin small-title-text{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+@mixin small-title-bold{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+@mixin regular-text{
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 400;
+}
+
